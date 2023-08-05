@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 /*
 Integer Türler
 Öncelikle tüm integer türleri bir görelim;
@@ -31,6 +33,51 @@ Rune: int32 ile aynıdır. Unicode karakter kodlarını ifade eder.
 
 /*
 Float türleri integer türlerden farklı olarak küsüratlı sayıları tutar. Örnek: 3.14
-
-
+float32: 32bitlik değer alabilir.
+float64: 64 değer alabilir.
 */
+/*
+Complex Türler
+Complex türleri içerisinde gerçel küsüratlı (float) ve sanal sayılar barındırabilir.
+Türkçe’de karmaşık sayılar diye adlandırılır.
+
+complex64: Gerçel float32 ve sanal sayı değeri barındırır.
+complex128: Gerçel float64 ve sanal sayı değeri barındırır.
+Sayısal türler bu şekildedir.
+*/
+/*
+BOOLEAN VERİ TİPİ
+Boolean yani mantıksal veri tipi bir durumun var olması halinde olumlu (true) değer,
+var olmaması halinde olumsuz (false) değer alan veri tipidir.
+*/
+/*
+STRING VERİ TİPİ
+String yani dizgi veri tipi içerisinde metinsel ifadeler barındırır.
+Örnek olarak “Golang çok güzel ama ingilicce”. String veri tipi değeri çift tırnak ( “Değer” ) içine yazılır.
+Diğer dillerdeki gibi tek tırnak ( ‘Değer’ ) insiyatifi yoktur. Tek tırnakla kullanım başka bir amaç içindir.
+İlerde onu da göstereceğim.
+*/
+/*
+Veri tipleri atanacak değerlerimizi RAM üzerinde depolamak için kullandığımız araçlardır.
+Tam sayı değerler için Integer veri tiplerini, ondalık sayılar için Float veri tiplerini,
+mantıksal değerler için Boolean veri tipini, metinsel değerler için String veri tipini kullanırız.
+Karmaşık sayı değerleri için ise Complex veri tipini kullanırız.
+*/
+
+func main() {
+	// (-128 to 127)
+	var intVar int8 = 125
+	fmt.Println("int8 ", intVar)
+
+	// float32: 32bitlik değer alabilir.
+	var floatVar float32 = 12.3
+	fmt.Println("float32 ", floatVar)
+
+	// "{value}"
+	var strVar string = "Eldiiar"
+	fmt.Println("string ", strVar)
+
+	// bool true-false
+	var boolVar bool = true
+	fmt.Println("bool ", boolVar)
+}
