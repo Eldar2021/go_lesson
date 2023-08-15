@@ -1,0 +1,30 @@
+[
+    {
+        "Name": "Eldiiar",
+        "Age": 22,
+        "Skills": [
+            "Dart",
+            "Flutter"
+        ],
+        "Parents": [
+            {
+                "DadName": "Almazbek",
+                "MomName": "Nargul"
+            }
+        ]
+    },
+    {
+        "Name": "Eldi",
+        "Age": 23,
+        "Skills": [
+            "Go",
+            "Rust"
+        ],
+        "Parents": [
+            {
+                "DadName": "Asan",
+                "MomName": "Azbu"
+            }
+        ]
+    }
+]
