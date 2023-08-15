@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <person>
+        <name>Eldiiar</name>
+        <social>
+            <facebook>https://facebook.com</facebook>
+            <twitter>https://twitter.com</twitter>
+            <youtube>https://youtube.com</youtube>
+        </social>
+    </person>
+    <person>
+        <name>Mehmet</name>
+        <social>
+            <facebook>https://facebook.com</facebook>
+            <twitter>https://twitter.com</twitter>
+            <youtube>https://youtube.com</youtube>
+        </social>
+    </person>
+</persons>
