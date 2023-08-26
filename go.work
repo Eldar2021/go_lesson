@@ -2,4 +2,7 @@ use (
 	./part09/static_pkg
 	./part09/gin_pkg
 	./part09/gin_start
+	./cli/urfave/eldi
+	./cli/urfave/eflag
+	./cli/urfave/ecommands
 )
