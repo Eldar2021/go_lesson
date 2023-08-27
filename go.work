@@ -6,4 +6,6 @@ use (
 	./cli/urfave/eflag
 	./cli/urfave/ecommands
 	./cli/urfave/esubcommands
+	./cli/urfave/e-exit
+	./cli/urfave/e-c-sh-o
 )
