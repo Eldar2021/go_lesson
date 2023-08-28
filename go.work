@@ -8,4 +8,8 @@ use (
 	./cli/urfave/esubcommands
 	./cli/urfave/e-exit
 	./cli/urfave/e-c-sh-o
+	./cli/urfave/e-bash-c
+	./cli/urfave/e-tag-v
+	./cli/urfave/e-timestamp-flag
+	./cli/urfave/e-suggest
 )

@@ -1,4 +1,4 @@
-module e-c-sh-o
+module e-bash-c
 
 go 1.19
 

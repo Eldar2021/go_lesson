@@ -1,4 +1,4 @@
-module e-c-sh-o
+module e-tag-v
 
 go 1.19
 

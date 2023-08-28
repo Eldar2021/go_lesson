@@ -1,4 +1,4 @@
-module e-c-sh-o
+module e-timestamp-flag
 
 go 1.19
 
