@@ -12,4 +12,5 @@ use (
 	./cli/urfave/e-tag-v
 	./cli/urfave/e-timestamp-flag
 	./cli/urfave/e-suggest
+	./cli/urfave/e-urfave
 )
