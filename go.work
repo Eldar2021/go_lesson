@@ -13,4 +13,5 @@ use (
 	./cli/urfave/e-timestamp-flag
 	./cli/urfave/e-suggest
 	./cli/urfave/e-urfave
+	./cli/cobra/cobra1
 )
