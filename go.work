@@ -17,4 +17,5 @@ use (
 	./cli/cobra/cobra2
 	./cli/cobra/cobra3
 	./orm/gorm/les01
+	./orm/gorm/les02
 )
